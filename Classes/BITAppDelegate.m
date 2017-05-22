@@ -30,6 +30,10 @@
 #import "BITDemoViewController.h"
 #import "HockeySDK.h"
 
+@import MobileCenter;
+@import MobileCenterAnalytics;
+@import MobileCenterDistribute;
+
 
 @interface BITAppDelegate () <BITHockeyManagerDelegate> {}
 
@@ -47,6 +51,9 @@
   [BITHockeyManager sharedHockeyManager].logLevel = BITLogLevelVerbose;
 
   [[BITHockeyManager sharedHockeyManager] startManager];
+
+  [MSMobileCenter setLogLevel:MSLogLevelVerbose];
+  [MSMobileCenter start:@"5d71ab11-d5ce-42c5-988e-fceda812b28c" withServices:@[[MSAnalytics class],[MSDistribute class]]];
 
   [self.window makeKeyAndVisible];
 
