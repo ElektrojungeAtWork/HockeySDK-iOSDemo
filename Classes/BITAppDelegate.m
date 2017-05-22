@@ -39,18 +39,10 @@
 @implementation BITAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-#if 1 //live
-  [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:@"fd51a3647d651add2171dd59d3b6e5ec"
+  [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:@"5cced9fcfb54402fb3c3cb053327f0cf"
                                                          delegate:self];
-  [BITHockeyManager sharedHockeyManager].authenticator.authenticationSecret = @"cdfc46d2c9e8a2f64890a6bb1337eef0";
-#else //warmup
-  [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:@"ca2aba1482cb9458a67b917930b202c8"
-                                                         delegate:self];
-  [BITHockeyManager sharedHockeyManager].authenticator.authenticationSecret = @"585935112885d912e95762fc27339a2c";
-#endif
-  [BITHockeyManager sharedHockeyManager].authenticator.identificationType = BITAuthenticatorIdentificationTypeDevice;
-  [BITHockeyManager sharedHockeyManager].authenticator.restrictApplicationUsage = NO;
-  
+  [BITHockeyManager sharedHockeyManager].authenticator.authenticationSecret = @"2565286864653912f3927ac63ea29e68";
+
   // optionally enable logging to get more information about states.
   [BITHockeyManager sharedHockeyManager].logLevel = BITLogLevelVerbose;
 

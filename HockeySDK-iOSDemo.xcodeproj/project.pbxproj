@@ -467,7 +467,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CNS;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				TargetAttributes = {
 					1E9A624315504F2E00EE7C9D = {
 						DevelopmentTeam = 5Z97G9NZQ6;
@@ -476,6 +476,9 @@
 								enabled = 0;
 							};
 						};
+					};
+					1EB617D81B0A38C50035A986 = {
+						DevelopmentTeam = 5Z97G9NZQ6;
 					};
 					6C65DFC719D2F3A000467082 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -737,7 +740,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Vendor/HockeySDK/Classes\"";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[arch=arm64]" = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -752,6 +755,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -761,10 +765,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Resources/HockeySDK-iOSDemo-Prefix.pch";
 				INFOPLIST_FILE = "Resources/HockeySDK-iOSDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.hockeyapp.sdk.ios.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "729e7da6-3f90-43aa-a447-484fd3d89e4c";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
 				WRAPPER_EXTENSION = app;
 			};
 			name = AdHoc;
@@ -801,7 +806,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Vendor/HockeySDK/Classes\"";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[arch=arm64]" = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -837,7 +842,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Vendor/HockeySDK/Classes\"";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[arch=arm64]" = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "20c340f3-a7ac-4caf-9fad-007faf206190";
@@ -855,6 +860,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -864,9 +870,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Resources/HockeySDK-iOSDemo-Prefix.pch";
 				INFOPLIST_FILE = "Resources/HockeySDK-iOSDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.hockeyapp.sdk.ios.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8154a375-ed7f-4187-af91-71c1856e5065";
+				PROVISIONING_PROFILE_SPECIFIER = "Benny Dev Wildcard Profile";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -888,7 +896,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Resources/HockeySDK-iOSDemo-Prefix.pch";
 				INFOPLIST_FILE = "Resources/HockeySDK-iOSDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.hockeyapp.sdk.ios.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -903,6 +911,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -915,6 +924,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.hockeyapp.sdk.ios.demo;
 				PRODUCT_NAME = "HockeySDK-iOSDemo";
+				PROVISIONING_PROFILE = "8154a375-ed7f-4187-af91-71c1856e5065";
+				PROVISIONING_PROFILE_SPECIFIER = "Benny Dev Wildcard Profile";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -927,6 +938,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -939,7 +951,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.hockeyapp.sdk.ios.demo;
 				PRODUCT_NAME = "HockeySDK-iOSDemo";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "729e7da6-3f90-43aa-a447-484fd3d89e4c";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
 				WRAPPER_EXTENSION = app;
 			};
 			name = AdHoc;
@@ -979,6 +992,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -996,6 +1010,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.hockeyapp.sdk.ios.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8154a375-ed7f-4187-af91-71c1856e5065";
+				PROVISIONING_PROFILE_SPECIFIER = "Benny Dev Wildcard Profile";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1020,6 +1036,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1040,6 +1057,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.hockeyapp.sdk.ios.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "729e7da6-3f90-43aa-a447-484fd3d89e4c";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
