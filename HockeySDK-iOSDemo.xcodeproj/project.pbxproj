@@ -84,14 +84,6 @@
 		6C65DFE219D2F7AD00467082 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E754E971622209D0070AB92 /* CrashReporter.framework */; };
 		6C65DFE519D2F80300467082 /* libHockeySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7E599F15C7FCC100D63C84 /* libHockeySDK.a */; };
 		6C65DFE619D2F93200467082 /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E7E59A515C7FCC100D63C84 /* HockeySDKResources.bundle */; };
-		B2BE05D21ED3425000D00183 /* MobileCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE05CE1ED3425000D00183 /* MobileCenter.framework */; };
-		B2BE05D31ED3425000D00183 /* MobileCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE05CE1ED3425000D00183 /* MobileCenter.framework */; };
-		B2BE05D41ED3425000D00183 /* MobileCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE05CF1ED3425000D00183 /* MobileCenterAnalytics.framework */; };
-		B2BE05D51ED3425000D00183 /* MobileCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE05CF1ED3425000D00183 /* MobileCenterAnalytics.framework */; };
-		B2BE05D61ED3425000D00183 /* MobileCenterDistribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE05D01ED3425000D00183 /* MobileCenterDistribute.framework */; };
-		B2BE05D71ED3425000D00183 /* MobileCenterDistribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BE05D01ED3425000D00183 /* MobileCenterDistribute.framework */; };
-		B2BE05D81ED3425000D00183 /* MobileCenterDistributeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B2BE05D11ED3425000D00183 /* MobileCenterDistributeResources.bundle */; };
-		B2BE05D91ED3425000D00183 /* MobileCenterDistributeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B2BE05D11ED3425000D00183 /* MobileCenterDistributeResources.bundle */; };
 		E43264E3180C07EC005E3820 /* BITAuthenticatorDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43264E1180C07EC005E3820 /* BITAuthenticatorDemoViewController.m */; };
 		E43264E4180C07EC005E3820 /* BITAuthenticatorDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E43264E2180C07EC005E3820 /* BITAuthenticatorDemoViewController.xib */; };
 /* End PBXBuildFile section */
@@ -240,10 +232,6 @@
 		6C65DFCE19D2F3A000467082 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		6C65DFCF19D2F3A000467082 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		6C65DFD119D2F3A000467082 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
-		B2BE05CE1ED3425000D00183 /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenter.framework; path = "Vendor/MobileCenter-SDK-iOS/MobileCenter.framework"; sourceTree = "<group>"; };
-		B2BE05CF1ED3425000D00183 /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterAnalytics.framework; path = "Vendor/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework"; sourceTree = "<group>"; };
-		B2BE05D01ED3425000D00183 /* MobileCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterDistribute.framework; path = "Vendor/MobileCenter-SDK-iOS/MobileCenterDistribute.framework"; sourceTree = "<group>"; };
-		B2BE05D11ED3425000D00183 /* MobileCenterDistributeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MobileCenterDistributeResources.bundle; path = "Vendor/MobileCenter-SDK-iOS/MobileCenterDistributeResources.bundle"; sourceTree = "<group>"; };
 		E43264E0180C07EC005E3820 /* BITAuthenticatorDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BITAuthenticatorDemoViewController.h; sourceTree = "<group>"; };
 		E43264E1180C07EC005E3820 /* BITAuthenticatorDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BITAuthenticatorDemoViewController.m; sourceTree = "<group>"; };
 		E43264E2180C07EC005E3820 /* BITAuthenticatorDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BITAuthenticatorDemoViewController.xib; sourceTree = "<group>"; };
@@ -258,16 +246,13 @@
 				1E3A2B551964723600D5BD66 /* libHockeySDK.a in Frameworks */,
 				1E3A2B4E196460E200D5BD66 /* CFNetwork.framework in Frameworks */,
 				1EB5D9611932A1C200DAA3EC /* AssetsLibrary.framework in Frameworks */,
-				B2BE05D41ED3425000D00183 /* MobileCenterAnalytics.framework in Frameworks */,
 				1E30AEE5191A478100BE7AC9 /* QuartzCore.framework in Frameworks */,
 				1E30AEE3191A477A00BE7AC9 /* SystemConfiguration.framework in Frameworks */,
 				1E30AEE1191A477300BE7AC9 /* CoreGraphics.framework in Frameworks */,
-				B2BE05D61ED3425000D00183 /* MobileCenterDistribute.framework in Frameworks */,
 				1E30AEDF191A476D00BE7AC9 /* MobileCoreServices.framework in Frameworks */,
 				1E30AED8191A476800BE7AC9 /* QuickLook.framework in Frameworks */,
 				1E9A624B15504F2E00EE7C9D /* Foundation.framework in Frameworks */,
 				1E9A624915504F2E00EE7C9D /* UIKit.framework in Frameworks */,
-				B2BE05D21ED3425000D00183 /* MobileCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +270,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2BE05D71ED3425000D00183 /* MobileCenterDistribute.framework in Frameworks */,
 				6C65DFE519D2F80300467082 /* libHockeySDK.a in Frameworks */,
 				6C65DFCA19D2F3A000467082 /* NotificationCenter.framework in Frameworks */,
 				6C65DFE219D2F7AD00467082 /* CrashReporter.framework in Frameworks */,
-				B2BE05D31ED3425000D00183 /* MobileCenter.framework in Frameworks */,
-				B2BE05D51ED3425000D00183 /* MobileCenterAnalytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,10 +305,6 @@
 		1E9A624715504F2E00EE7C9D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B2BE05CE1ED3425000D00183 /* MobileCenter.framework */,
-				B2BE05CF1ED3425000D00183 /* MobileCenterAnalytics.framework */,
-				B2BE05D01ED3425000D00183 /* MobileCenterDistribute.framework */,
-				B2BE05D11ED3425000D00183 /* MobileCenterDistributeResources.bundle */,
 				1E3A2B4D196460E200D5BD66 /* CFNetwork.framework */,
 				1EB5D9601932A1C200DAA3EC /* AssetsLibrary.framework */,
 				1E30AEE4191A478100BE7AC9 /* QuartzCore.framework */,
@@ -607,7 +585,6 @@
 				1E6E93FA1814193D00F8456E /* BITCrashReportsViewController.xib in Resources */,
 				1E546FAC196C79140081E763 /* Images.xcassets in Resources */,
 				1EB52FC6167B741F00C801D5 /* Localizable.strings in Resources */,
-				B2BE05D81ED3425000D00183 /* MobileCenterDistributeResources.bundle in Resources */,
 				1E72EFEE1936B0DA00DC6301 /* 144x144.png in Resources */,
 				1E72EFED1936B0DA00DC6301 /* 120x120.png in Resources */,
 			);
@@ -645,7 +622,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C65DFD219D2F3A000467082 /* MainInterface.storyboard in Resources */,
-				B2BE05D91ED3425000D00183 /* MobileCenterDistributeResources.bundle in Resources */,
 				6C65DFE619D2F93200467082 /* HockeySDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -785,7 +761,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Vendor/HockeySDK/Vendor\"/",
-					"$(PROJECT_DIR)/Vendor/MobileCenter-SDK-iOS",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Resources/HockeySDK-iOSDemo-Prefix.pch";
@@ -892,7 +867,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Vendor/HockeySDK/Vendor\"/",
-					"$(PROJECT_DIR)/Vendor/MobileCenter-SDK-iOS",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Resources/HockeySDK-iOSDemo-Prefix.pch";
@@ -918,7 +892,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Vendor/HockeySDK/Vendor\"/",
-					"$(PROJECT_DIR)/Vendor/MobileCenter-SDK-iOS",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Resources/HockeySDK-iOSDemo-Prefix.pch";
@@ -1023,8 +996,7 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Vendor/HockeySDK/Vendor",
-					"$(PROJECT_DIR)/Vendor/MobileCenter-SDK-iOS",
+					"\"$(PROJECT_DIR)/Vendor/HockeySDK/Vendor\"",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1070,8 +1042,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Vendor/HockeySDK/Vendor",
-					"$(PROJECT_DIR)/Vendor/MobileCenter-SDK-iOS",
+					"\"$(PROJECT_DIR)/Vendor/HockeySDK/Vendor\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1119,8 +1090,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Vendor/HockeySDK/Vendor",
-					"$(PROJECT_DIR)/Vendor/MobileCenter-SDK-iOS",
+					"\"$(PROJECT_DIR)/Vendor/HockeySDK/Vendor\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

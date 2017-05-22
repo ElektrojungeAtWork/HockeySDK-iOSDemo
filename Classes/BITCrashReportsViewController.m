@@ -11,6 +11,8 @@
 #import "HockeySDK.h"
 #import "HockeySDKPrivate.h"
 
+//@import MobileCenter;
+//@import MobileCenterAnalytics;
 
 @interface BITCrashReportsViewController ()
 
@@ -109,7 +111,8 @@
   
   if (indexPath.section == 0) {
     if (indexPath.row == 0) {
-      [self triggerSignalCrash];
+//      [self triggerSignalCrash];
+//      [MSAnalytics trackEvent:@"Awesome attendees try to crash the app." withProperties:@{@"Number of attendees" : @"0"}];
     } else {
       [self triggerExceptionCrash];
     }
