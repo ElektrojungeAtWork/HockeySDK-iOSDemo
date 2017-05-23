@@ -112,7 +112,7 @@
   if (indexPath.section == 0) {
     if (indexPath.row == 0) {
       [self triggerSignalCrash];
-//      [MSAnalytics trackEvent:@"Awesome attendees try to crash the app." withProperties:@{@"Number of attendees" : @"0"}];
+//      [MSAnalytics trackEvent:@"Awesome attendees try to crash the app." withProperties:@{@"Number of attendees" : @"1"}];
     } else {
       [self triggerExceptionCrash];
     }

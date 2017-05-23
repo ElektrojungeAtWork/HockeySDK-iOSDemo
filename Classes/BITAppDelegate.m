@@ -66,12 +66,6 @@
   return YES;
 }
 
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-  return [[BITHockeyManager sharedHockeyManager].authenticator handleOpenURL:url
-                                                           sourceApplication:sourceApplication
-                                                                  annotation:annotation];
-}
-
 - (void)waitingUI {
   // show intermediate UI
   [self.demoViewController.view addSubview:self.demoViewController.waitingView];
@@ -141,5 +135,6 @@
     [self setupApplication];
   }
 }
+
 
 @end
