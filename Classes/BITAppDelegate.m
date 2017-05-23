@@ -53,7 +53,7 @@
   [[BITHockeyManager sharedHockeyManager] startManager];
 
   [MSMobileCenter setLogLevel:MSLogLevelVerbose];
-  [MSMobileCenter start:@"5d71ab11-d5ce-42c5-988e-fceda812b28c" withServices:@[[MSAnalytics class],[MSDistribute class]]];
+  [MSMobileCenter start:@"d51e63b2-74b2-4884-86f8-aebdae09f165" withServices:@[[MSAnalytics class],[MSDistribute class]]];
 
   [self.window makeKeyAndVisible];
 
@@ -135,6 +135,5 @@
     [self setupApplication];
   }
 }
-
 
 @end
